@@ -1,0 +1,5 @@
+Title : A comparison of Rust’s borrow checker to the one in C# url : https://em-tg.github.io/csborrow/
+Title : Steam games will need to disclose kernel-level anti-cheat on store pages url : https://www.gamingonlinux.com/2024/10/steam-games-will-now-need-to-fully-disclose-kernel-level-anti-cheat-on-store-pages/
+Title : Show HN: G-win – .gcode parser written in Rust with winnow url : https://crates.io/crates/g-win
+Title : FDA Permits Marketing of Digital Game to Improve Attention in ADHD Children (2020) url : https://www.fda.gov/news-events/press-announcements/fda-permits-marketing-first-game-based-digital-therapeutic-improve-attention-function-children-adhd
+Title : Classic 3D videogame shadow techniques url : https://30fps.net/pages/videogame-shadows/
