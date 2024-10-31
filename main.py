@@ -63,7 +63,7 @@ try:
             story_response.raise_for_status()
             story_data = story_response.json()
             for keyword in keywords:
-                if keyword.lower() in story_data.get("title").lower():
+                if keyword.lower() in story_data.get("title").lower() and story_data.get("url") is not None and story_data.get("title") is not None: 
                     file.write("Title : " + story_data.get("title") + " url : " +story_data.get("url") + "\n")
                     numStories+=1
                     break
