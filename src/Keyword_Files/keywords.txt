@@ -1,7 +1,0 @@
-C#
-Rust
-microsoft
-bitcoin
-blockchain
-Game
-Develop

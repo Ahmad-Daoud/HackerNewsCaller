@@ -1,2 +1,5 @@
 output/*
+!output/.gitkeep
 src/Keyword_Files/*
+!src/Keyword_Files/.gitkeep
+src/Keyword_Files/.gitkeep
