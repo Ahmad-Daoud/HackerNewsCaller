@@ -5,7 +5,6 @@ import os
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-url = "https://hacker-news.firebaseio.com/v0/topstories.json"
 clear()
 output_file = "output/" + str(input("Please enter the output file name: ")+ ".txt")
 keywords = []
@@ -29,6 +28,19 @@ while True:
         except FileNotFoundError:
             clear()
             print("File not found. Please try again.")
+    else:
+        clear()
+        print("Invalid input. Please try again.")
+clear()
+print("Would you like to search for the top stories or the new stories? (Top/New)")
+while True:
+    resp = str(input())
+    if resp == "Top":
+        url = "https://hacker-news.firebaseio.com/v0/topstories.json"
+        break
+    elif resp == "New":
+        url = "https://hacker-news.firebaseio.com/v0/newstories.json"
+        break
     else:
         clear()
         print("Invalid input. Please try again.")
